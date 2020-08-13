@@ -5,7 +5,7 @@ layout: default
 
 <ul>
 {% for post in site.posts %}
-    <li class="h1 list-style-none"><a href="{{ post.url }}">{{ post.title}}</a>
+    <li class="h1 list-style-none"><a class="text-decoration-none" href="{{ post.url }}">{{ post.title}}</a>
     <!--<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span> -->
     </li>
 {% endfor %}
