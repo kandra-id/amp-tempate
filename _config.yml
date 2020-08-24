@@ -1,4 +1,5 @@
 title: Kandra AMP Template 2 Jekyll
 name: AMP Template 2 Jekyll
-url:
+url: 
 baseurl: /amp-template
+permalink: /:title
